@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <label for="die">Enter a  number of dice: </label>
-    <input type="text" id="die" name="die">
-    <button id="roll"type="button">Roll!</button>
-    <label for ="total" id="total">Total: </label>
-    <button id="totalRolls" type="button">Show All Rolls</button>
-        <ol></ol>
+    <div>
+        <label for="die">Enter a  number of dice: </label>
+        <input type="text" id="die" name="die">
+        <button id="roll"type="button">Roll!</button>
+    </div>
+    <label for ="total" id="total">Total:_ </label>
+    <div>
+        <button id="totalRolls" type="button">Show All Rolls</button>
+        <ol id="dynamicList"></ol>
+    </div>
+    
     <script src="./assets/javascript/main.js"></script>
 </body>
 </html>
